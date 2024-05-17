@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+main {
+    width: 100%;
+    height: 100vh;
+    background: rgb(233, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.recipe-info-container {
+    background: white;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.6);
+    max-width: 500px;
+}
+
+
+#heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+#area {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+#ingredients {
+    list-style-type: none;
+    padding: 0;
+}
+
+#ingredients li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.generate-meal-button {
+    border: none;
+    background: rgb(255, 165, 0);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none; 
+    display: inline-block; 
+    text-align: center; 
+    transition: 0.3s; 
+}
+
+.generate-meal-button:hover, .video:hover {
+    background: rgb(204, 133, 0);
+}
+
+.left {
+    text-align: left;
+    margin-bottom: 10px;
+}
